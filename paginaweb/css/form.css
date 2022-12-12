@@ -1,0 +1,163 @@
+body, html { 
+    margin: 0px; 
+    padding:0; 
+    height:100%; 
+}
+
+.contenedor { 
+    min-height:100%; 
+    position:relative; 
+    
+
+  } 
+
+.fon{
+
+    position: fixed;
+    width: 100%;
+}
+
+
+header{
+
+    position: static;
+    padding:10px; 
+    height: 80px; 
+    background:black; 
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Helvetica;
+    box-shadow: 0 0 20px whitesmoke;
+    text-shadow: 
+      0 1px 0 #ccc, 
+      0 2px 0 #c9c9c9, 
+      0 3px 0 #bbb, 
+      0 4px 0 #b9b9b9, 
+      0 5px 0 #aaa, 
+      0 6px 1px rgba(0,0,0,.1), 
+      0 0 5px rgba(0,0,0,.1), 
+      0 1px 3px rgba(0,0,0,.3), 
+      0 3px 5px rgba(0,0,0,.2), 
+      0 5px 10px rgba(0,0,0,.25), 
+      0 10px 10px rgba(0,0,0,.2), 
+      0 20px 20px rgba(0,0,0,.15);
+
+    text-align: center;
+
+
+
+    
+  }
+
+.oj{
+
+    position: absolute;
+    top: 2.8%;
+    left: 33%;
+    width: 4%;
+}
+.oj1{
+
+    position: absolute;
+    top: 2.8%;
+    left: 63%;
+    width: 4%;
+}
+
+main{
+
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    height: 198%;
+    width: 60%;
+    background-color: black;
+    opacity: 0.7;
+    box-shadow: 0 0 10px whitesmoke;
+  
+}
+
+form{
+
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+
+fieldset{
+
+  border: 0;
+}
+
+.mi{
+
+  box-shadow: 0 0 10px white;
+  border: 3px solid black;
+
+}
+input[type="number"] {
+
+box-shadow: 0 0 10px white;
+border: 3px solid black;
+
+
+}
+input[type="color"] {
+
+  background-color: white;
+  padding: 0%;
+  box-shadow: 0 0 10px white;
+  
+}
+
+input[type="time"] {
+
+  box-shadow: 0 0 10px white;
+  
+}
+
+.salir{
+
+  position: relative;
+  left: 46%;
+  top: 33%;
+  background-color:whitesmoke;
+  width: 7%;
+  height: 23%;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 3px;
+  border: 1px black solid;
+}
+
+a.sal{
+
+  color:black;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+footer { 
+    height: 15%; 
+    background:black; 
+    width:100%; 
+    position:fixed; 
+    bottom:0; 
+    left:0; 
+    box-shadow: 0 0 20px whitesmoke;
+   
+    
+  }
+
+  .copy {
+    position:absolute;
+    left: 44%;
+    top: 25%;
+    color: white;
+    font-size: 100%;
+  }
+
+  

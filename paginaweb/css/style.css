@@ -1,0 +1,421 @@
+body, html { 
+    margin: 0px; 
+    padding:0; 
+    height:100%; 
+    
+
+}
+  .contenedor { 
+    min-height:100%; 
+    position:relative; 
+  } 
+
+  .fondo {
+    position: fixed;
+    width: 100%;
+    height: 200% ;
+  }
+  header { 
+
+    position: static;
+    padding:10px; 
+    height: 80px; 
+    background:black; 
+
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        font-family: Helvetica;
+        text-shadow: 
+          0 1px 0 #ccc, 
+          0 2px 0 #c9c9c9, 
+          0 3px 0 #bbb, 
+          0 4px 0 #b9b9b9, 
+          0 5px 0 #aaa, 
+          0 6px 1px rgba(0,0,0,.1), 
+          0 0 5px rgba(0,0,0,.1), 
+          0 1px 3px rgba(0, 0, 0, 0.3), 
+          0 3px 5px rgba(0,0,0,.2), 
+          0 5px 10px rgba(0,0,0,.25), 
+          0 10px 10px rgba(147, 39, 255, 0.2), 
+          0 20px 20px rgba(0,0,0,.15);
+    
+        text-align: center;
+      }
+
+
+  
+  .sangre {
+
+    position:absolute;
+    top:0;
+    left: 0%;
+    height: 8%;
+
+  }
+
+  .sangre2 {
+
+    position:absolute;
+    top:0;
+    left: 11%;
+    height: 8%;
+
+  }
+
+  .sangre3 {
+
+    position:absolute;
+    top:0;
+    left: 22%;
+    height: 8%;
+
+  }
+
+  .sangre4 {
+
+    position:absolute;
+    top:0;
+    left: 33%;
+    height: 8%;
+
+  }
+  .sangre5 {
+
+    position:absolute;
+    top:0;
+    left: 44%;
+    height: 8%;
+
+  }
+  .sangre6 {
+
+    position:absolute;
+    top:0;
+    left: 55%;
+    height: 8%;
+
+  }
+  .sangre7 {
+
+    position:absolute;
+    top:0;
+    left: 66%;
+    height: 8%;
+
+  }
+  .sangre8 {
+
+    position:absolute;
+    top:0;
+    left: 77%;
+    height: 8%;
+
+  }
+  .sangre9 {
+
+    position:absolute;
+    top:0;
+    left: 86.5%;
+    height: 8%;
+
+  }
+  nav {
+
+    position:static;
+    background: #931C01;
+    padding: 5px 10%;
+    width: 80%;
+    height: 28px;
+  }
+
+
+  a.hs{
+
+    text-decoration: none;
+    color: white;
+  }
+
+   .hs:visited{
+
+    color: white;
+  }
+
+  a.inc{
+
+    text-decoration: none;
+    color: white;
+
+  }
+
+   .inc:visited{
+
+    color: white;
+  }
+  a.cv{
+
+    text-decoration: none;
+    color: white;
+  }
+
+  .cv:visited{
+
+    color: white;
+  }
+
+  a.form{
+
+    text-decoration: none;
+    color: white;
+
+    
+  }
+
+  .form:visited{
+
+    color: white;
+  }
+
+   a.info{
+
+    text-decoration: none;
+    color: white;
+
+    
+  }
+
+  .info:visited{
+
+    color: white;
+  }
+  ul{
+    margin-top: 0.3%;
+  
+    width: 100%;
+  
+  }
+
+  li {
+    
+    color: whitesmoke;
+    font-size:1.2em;
+    list-style:none;
+    display: inline;
+    margin: 2%;
+    background-color: black;
+    padding: 0% 3.3% 0% ;
+    font-weight: bold;
+    border:2px solid #931C01;
+    border-radius: 15px;
+
+}
+li:hover {
+    background: black;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: all 0.1s ease;
+    border:2px solid whitesmoke;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+    main { 
+    
+    position: relative;
+    left: 12%;
+    background-color:black;
+    width: 75%;
+    height: 1300px;
+    border-left: 2px solid #931C01;
+    border-right: 2px solid #931C01;
+   
+  } 
+
+  div.titcuerpo {
+
+    position: absolute;
+    left:41%;
+    top:2%;
+
+
+
+  }
+  .advertir {
+
+      
+        color: red;
+        font-size: 2.2em;
+        font-weight: bold;
+        font-family: Helvetica;
+        text-shadow: 
+          0 1px 0 rgb(133, 4, 4), 
+          0 2px 0 #690000, 
+          0 3px 0 rgb(86, 1, 1), 
+          0 4px 0 #5b0202, 
+          0 5px 0 rgb(112, 4, 4), 
+          0 6px 1px rgba(0,0,0,.1), 
+          0 0 5px rgba(0,0,0,.1), 
+          0 1px 3px rgba(0,0,0,.3), 
+          0 3px 5px rgba(0,0,0,.2), 
+          0 5px 10px rgba(0,0,0,.25), 
+          0 10px 10px rgba(0,0,0,.2), 
+          0 20px 20px rgba(0,0,0,.15);
+
+  }
+
+  div.cuerpo{
+
+    position: absolute;
+    top:10%;
+    left: 8%;
+    color: white;
+   
+    
+  }
+
+
+.in {
+
+    color: red;    
+}
+
+.in2{
+  color:red;
+}
+
+div.lateral {
+
+ 
+  width: 35%;
+  float: left;
+  margin-top:5% ;
+
+  
+}
+
+p.dos {
+
+  margin-top: 4%;
+  text-align: justify;
+}
+
+div.gifmenu {
+
+  position: relative;
+  left: 10%;
+  margin-top: 4%;
+  
+}
+
+.unogif {
+
+  box-shadow: 0 0 10px #FFF8F7;
+}
+
+div.gifmenudos{
+
+  position: absolute;
+  top: 104%;
+  left: 9%;
+
+}
+.dosgif {
+  
+
+  width: 35%;
+  
+
+}
+
+.gifmenutres{
+
+  position: absolute;
+  top: 130%;
+}
+
+.tresgif{
+
+  width: 130%;
+  box-shadow: 0 0 10px #FFF8F7;
+
+ 
+}
+
+div.lateralder{
+
+  position: absolute;
+  left: 50%;
+  top: 130%;
+  width: 40%;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+.p1{
+  border-bottom: 3px solid red;
+  padding: 3%;
+  
+
+ 
+}
+
+.p2{
+  border-bottom: 3px solid red;
+  padding: 3%;
+ 
+}
+.p3{
+  border-bottom: 3px solid red;
+  padding: 3%;
+ 
+}
+.p4{
+  border-bottom: 3px solid red;
+  padding: 3%;
+ 
+}
+
+
+
+  footer { 
+    height: 15%; 
+    background:black; 
+    width:100%; 
+    position:fixed; 
+    bottom:0; 
+    left:0; 
+    box-shadow: 0 0 80px #931C01;
+    
+  }
+
+  .seis {
+
+    height: 100%;
+  
+  }
+
+  .copy {
+    position:absolute;
+    left: 42%;
+    top: 25%;
+    color: white;
+    font-size: 100%;
+  }
+
+  a.abajo {
+
+    color:whitesmoke;
+    font-weight: bold;
+    
+  }
+
+  .abajo:active {
+
+    color: lime;
+  }

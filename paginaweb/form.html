@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <img src="./img/fonfor.gif" alt="fondo" class="fon">
+
+    <div class="contenedor">
+
+        <header>
+
+            <h1>TE OBSERVO</h1>
+            <img src="./img/ojo.gif" alt="ojo" class="oj">
+            <img src="./img/ojo.gif" alt="ojo" class="oj1">
+
+        </header>
+
+        <main>
+          
+                <form>
+
+                <fieldset> 
+
+                    <p>
+                    <label><b>¿Cuantos años tienes?</b></label>
+
+                    <br>
+                    <br>
+
+
+                    <input type="number" name="años" max="80" min="18" value="18">
+                    </p>
+                
+                    <br>
+                    <p>
+                    <label><b>Género:</b></label>
+                    
+                    <br>
+                    <br>
+                    <input type="radio" name="g" value="h"> Hombre
+                    <input type="radio" name="g" value="m"> Mujer
+                    <input type="radio" name="g" value="ot"> Otro
+
+                    </p>
+                    <br>
+
+                    <p>
+                    <label><b>Color favorito:</b></label>
+                    <br>
+                    <br>
+                    <input type="color" name="fv">
+                    
+                    </p>
+
+                    <br>
+                    <p>
+                        <label><b>Tu mayor miedo:</b></label>
+                        <br>
+                        <br>
+                        <input type="text" name="miedo" size=21 class="mi" required>
+                    </p>
+                    
+                    <br>
+                    <p>
+                        <label><b>¿Cuánto te gusta el terror?</b></label>
+                        <br>
+                        <br>
+                        <input type="range" name="miedo" max=5 min=0 value=0>
+                    </p>
+                    <br>
+                    <p>
+                        <label><b>¿A que hora duermes?</b></label>
+                        <br>
+                        <br>
+                        <input type="time" name="dormir">
+                    </p>
+
+                    <br>
+                    <p>
+                        <label><b>Elige las películas de terror que conozcas</b></label>
+                        <br>
+                        <br>
+                        <select name="menu[]" size="5" multiple>
+
+                            <option value="1">---------------------------------</option>
+                            <option value="2">The ring</option>
+                            <option value="3">Slenderman</option>
+                            <option value="4">El exorcista</option>
+                            <option value="5">La matanza de Texas</option>
+                            <option value="6">Dead Silence</option>
+                          </select>
+                    </p>
+
+                    <br>
+
+                    <p>
+                        <label><b>Cuéntame una experiencia de miedo que hayas vivido:</b></label>
+                        <br>
+                        <br>
+                        <textarea name="texto" rows="10" cols="70" placeholder="Escribe aquí..."></textarea>
+                    </p>
+                    <br>
+                    <p> 
+                        <input type="checkbox" name="casilla" required>
+                
+                        
+                        Acepto las Condiciones del servicio y la Política de privacidad de S4yx3s.
+                
+                    </p>  
+                    <br>
+                        <p>
+                            <input type="submit" value="Enviar" class="boton">
+                            <input type="reset" value="Borrar">
+                           
+                       
+                        </p>
+
+
+                 <p class="salir"><a href="./index.html" class="sal">Salir</a></p>    
+                </fieldset>
+                </form>
+        </main>
+
+  
+
+        <footer>
+
+
+            <p class="copy">© Desarrollado por Sayxes</p>
+
+        </footer>
+
+
+
+
+    </div>
+
+    
+</body>
+</html>

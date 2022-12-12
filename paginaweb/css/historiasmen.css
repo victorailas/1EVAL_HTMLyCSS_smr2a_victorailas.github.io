@@ -1,0 +1,188 @@
+body, html { 
+    margin: 0px; 
+    padding:0; 
+    height:100%; 
+    
+}
+
+body {
+
+    background-image: url(../img/fondohis.gif);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.contenedor { 
+    min-height:100%; 
+    position:relative; 
+} 
+
+main{
+
+    position: absolute;
+    top: 14%;
+    left: 35%;
+    height: 80%;
+    width: 30%;
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+div.d{
+
+    
+    position: relative;
+    top: 23%;
+    left: 38%;
+    background-color: whitesmoke;
+    width: 24%;
+    padding: 1%;
+    border: 3px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+    text-align: center;
+    
+}
+
+
+
+a.dead{
+
+    text-decoration: none;
+    color:black;
+    
+}
+
+.d:hover{
+
+    background-color:red ;
+    box-shadow: 0 0 20px red;
+    font-size: 1.1em;
+    width: 26%;
+    border: 3px white solid;
+}
+
+
+div.r{
+
+    
+    position: relative;
+    top: 50%;
+    left: 38%;
+    background-color: whitesmoke;
+    width: 24%;
+    padding: 1%;
+    border: 3px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+    text-align: center;
+    
+}
+
+
+
+a.ring{
+
+    text-decoration: none;
+    color:black;
+    
+}
+
+.r:hover{
+
+    background-color:red ;
+    box-shadow: 0 0 20px red;
+    font-size: 1.1em;
+    border: 3px white solid;
+    
+}
+
+div.s{
+
+    
+    position: relative;
+    top: 50%;
+    left: 38%;
+    background-color: whitesmoke;
+    width: 24%;
+    padding: 1%;
+    border: 3px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+    text-align: center;
+    
+}
+
+
+
+a.slen{
+
+    text-decoration: none;
+    color:black;
+    
+}
+
+.s:hover{
+
+    background-color:red ;
+    box-shadow: 0 0 20px red;
+    font-size: 1.1em;
+    border: 3px white solid;
+    
+}
+
+
+
+
+footer{
+    position: relative;
+    background: black;
+    height: 15%;
+    box-shadow: 0 0 10px white;
+  
+}
+
+
+.volver{
+    position: relative;
+    left: 48%;
+    top: 33%;
+    background-color: white;
+    width: 5%;
+    height: 23%;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0%;
+    padding: 5px;
+    border: 3px black solid;
+    box-shadow: 0 0 10px white;
+    letter-spacing: 2px;
+  
+ 
+}
+a.exit {
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+.volver:hover{
+
+    background-color: red;
+    border: 2px solid white;
+
+}
+
+
+
+
+
+

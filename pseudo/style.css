@@ -1,0 +1,32 @@
+/* AUTOR VICTOR AILAS */
+
+header p:first-child {
+ 
+    color: red;
+
+}
+
+a:link {
+
+    color: brown;
+}
+
+a:visited {
+    color: blueviolet;
+
+}
+
+a:hover{
+    background-color: purple;
+    color: white;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+input:focus{
+
+    border: red 8px dotted;
+    padding: 2px;
+}
+

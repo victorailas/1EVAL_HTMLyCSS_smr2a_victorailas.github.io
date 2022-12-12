@@ -1,0 +1,50 @@
+p.titulo {
+
+    border: black 45px solid;
+    font-size:25px;
+    border-image-source: url("img/images.png");
+    text-align: center;
+    
+}
+
+table {
+
+    border-style: double ;
+    border-color: blue;
+    border-width: 0.4em;
+    background-color: aqua;
+    padding: 25px;
+    font-size: 50px;
+    position: absolute;left: 25%;top:58%;
+    width: 50%;
+    height: 50%;
+}
+td {
+
+    border: 4px solid purple;
+    padding: 35px;
+    background-color:yellow;
+
+
+}
+
+blockquote {
+  padding: 7px 14px;
+  border: purple 5px solid;
+  border-radius: 50px 0px 50px 0px;
+  -webkit-border-radius: 50px 0px 50px 0px;
+  -moz-border-radius: 50px 0px 50px 0px;
+  -ms-border-radius: 50px 0px 50px 0px;
+  -o-border-radius: 50px 0px 50px 0px;
+}
+
+p.radius {
+    text-align: center;
+
+}
+
+p.detalle {
+
+    text-align: right;
+    font-style: oblique;
+}

@@ -1,0 +1,142 @@
+body, html { 
+    margin: 0px; 
+    padding:0; 
+    height:100%; 
+
+}
+    
+    body{
+
+        background-image: url(../img/ring.gif);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+    }
+
+  .contenedor { 
+    min-height:100%; 
+    position:relative; 
+  } 
+
+
+  header{
+
+    position: static;
+    padding:10px; 
+    height: 80px; 
+    background:black; 
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Helvetica;
+    box-shadow: 0 0 30px white;
+    text-shadow: 
+      0 1px 0 #ccc, 
+      0 2px 0 #c9c9c9, 
+      0 3px 0 #bbb, 
+      0 4px 0 #b9b9b9, 
+      0 5px 0 rgb(37, 3, 3), 
+      0 6px 1px rgba(0,0,0,.1), 
+      0 0 5px rgba(0,0,0,.1), 
+      0 1px 3px rgba(0,0,0,.3), 
+      0 3px 5px rgba(0,0,0,.2), 
+      0 5px 10px rgba(0,0,0,.25), 
+      0 10px 10px rgba(0,0,0,.2), 
+      0 20px 20px rgba(0,0,0,.15);
+
+    text-align: center;
+
+
+
+    
+  }
+
+    main { 
+    
+        position: relative;
+        left: 12%;
+        background-color:black;
+        width: 75%;
+        height: 600px;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+       
+      
+  }
+
+  div.pa1{
+
+    position:absolute;
+    top:4%;
+    left: 9%;
+    color: white;
+    font-size: 1.1em;
+    width: 82%;
+  }
+
+  .r{
+
+    position: absolute;
+    top:160%;
+    left: 0%;
+    width: 30%;
+    border: 2px solid white;
+  }
+
+  .pa2{
+
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    width: 50%;
+    color: white;
+  }
+
+  .colu{
+
+    column-count: 2;
+    text-align: justify;
+  }
+
+  footer{
+    position: relative;
+    background: black;
+    height: 10%;
+    padding: 2%;
+    box-shadow: 0 0 10px white;
+  
+}
+
+
+.volver{
+    position: relative;
+    left: 48%;
+    top: 33%;
+    background-color: white;
+    width: 5%;
+    height: 23%;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0%;
+    padding: 5px;
+    border: 3px black solid;
+    box-shadow: 0 0 10px white;
+    letter-spacing: 2px;
+  
+ 
+}
+a.exit {
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+.volver:hover{
+
+    background-color: red;
+    border: 2px solid white;
+
+}
+

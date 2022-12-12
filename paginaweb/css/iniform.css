@@ -1,0 +1,194 @@
+body, html { 
+    margin: 0px; 
+    padding:0; 
+    height:100%; 
+}
+
+.contenedor { 
+    min-height:100%; 
+    position:relative; 
+  } 
+
+.fon{
+
+    position: fixed;
+    width: 100%;
+}
+
+
+header{
+
+    position: static;
+    padding:10px; 
+    height: 80px; 
+    background:black; 
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Helvetica;
+    box-shadow: 0 0 20px whitesmoke;
+    text-shadow: 
+      0 1px 0 #ccc, 
+      0 2px 0 #c9c9c9, 
+      0 3px 0 #bbb, 
+      0 4px 0 #b9b9b9, 
+      0 5px 0 #aaa, 
+      0 6px 1px rgba(0,0,0,.1), 
+      0 0 5px rgba(0,0,0,.1), 
+      0 1px 3px rgba(0,0,0,.3), 
+      0 3px 5px rgba(0,0,0,.2), 
+      0 5px 10px rgba(0,0,0,.25), 
+      0 10px 10px rgba(0,0,0,.2), 
+      0 20px 20px rgba(0,0,0,.15);
+
+    text-align: center;
+
+
+
+    
+  }
+
+.oj{
+
+    position: absolute;
+    top: 2.8%;
+    left: 33%;
+    width: 4%;
+}
+.oj1{
+
+    position: absolute;
+    top: 2.8%;
+    left: 63%;
+    width: 4%;
+}
+
+main{
+
+    position: absolute;
+    top: 14%;
+    left: 35%;
+    height: 80%;
+    width: 30%;
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+form{
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+}
+
+fieldset{
+
+  border: 0;
+}
+.ti{
+
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+
+.ent{
+  position:absolute;
+  top: 60%;
+  left: 27%;
+  background-color: #959393;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  border: 2px solid white;
+  
+
+}
+
+p.entr{
+
+  width: 20%;
+  font-size: 1,3em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+  
+  
+
+}
+
+
+.entrar{
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black;
+
+}
+
+.ent:hover{
+
+  box-shadow: 0 0 20px whitesmoke;
+  border:3px solid white;
+}
+
+.ex{
+  position:absolute;
+  top: 60%;
+  left: 54%;
+  width: 15%;
+  background-color: #959393;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  border: 2px solid white;
+  
+
+}
+
+p.bex{
+  left: 0%;
+  top: 60%;
+  font-size: 1,3em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+  
+  
+
+}
+
+
+.exit{
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: black;
+
+}
+
+.ex:hover{
+
+  box-shadow: 0 0 20px whitesmoke;
+  border:3px solid white;
+}
+footer { 
+    height: 15%; 
+    background:black; 
+    width:100%; 
+    position:fixed; 
+    bottom:0; 
+    left:0; 
+    box-shadow: 0 0 20px whitesmoke;
+   
+    
+  }
+
+  .copy {
+    position:absolute;
+    left: 44%;
+    top: 25%;
+    color: white;
+    font-size: 100%;
+  }
+
+  

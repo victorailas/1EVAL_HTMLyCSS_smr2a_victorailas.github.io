@@ -1,0 +1,60 @@
+header {
+
+    border: 3px blue solid;
+    height: 20% ;
+}
+
+nav {
+
+    border: 3px black solid;
+    height: 60%;
+    width: 30%;
+
+}
+
+
+
+footer {
+
+    border: 3px yellow solid;
+    height: 20%;
+
+}
+
+li.menu {
+    
+    list-style-type: none;
+    display: inline;
+    margin: 40px ;
+
+}
+
+div.cabecera {
+
+    
+    width: 30%;
+    position: relative;text-align: center;left: 34%;
+}
+
+img {
+
+    width: 80%;
+    position: absolute;top: 8%;
+        
+
+}
+
+div.contenedor {
+
+    position: absolute;
+}
+
+div.img {
+
+    position: absolute;width: 10%;height: 10%;
+    top:3%;
+
+    
+    
+}
+
